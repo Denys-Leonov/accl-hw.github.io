@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import CSVReader from 'react-csv-reader'
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [dataArr, setDataArr] = useState([])
+
+  function handle(data) {
+    setDataArr([...data])
+    
+  }
+
+  const parseOptions = {
+    header: true,
+    skipEmptyLines: true,
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="uploading">
+        <div className="container">
+          <div className="uploading__row">
+            <div className="uploading__input">
+              <CSVReader
+                label="Click me!"
+                onFileLoaded={handle}
+                parserOptions={parseOptions}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="postList">
+        <ul>
+          {dataArr.map((item, index) => {
+           return <li key={item['uuid']}>[{index}] Summary: {item.Summary}</li>
+          } )}
+        </ul>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
