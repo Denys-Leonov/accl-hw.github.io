@@ -1,0 +1,9 @@
+.fileName {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .fileName span {
+    margin-left: 10px;
+  }

@@ -74,31 +74,3 @@ h6 {
   font-weight: inherit;
 }
 /*--------------------*/
-
-.csv-label {
-  cursor: pointer;
-}
-
-.csv-input {
-  display: none;
-}
-
-.area {
-  border: 1px dashed rgb(255, 255, 255);
-}
-
-.drop {
-  min-height: 50px;
-  padding: 0 15px;
-  display: flex;
-  align-items: center;
-}
-.fileName  {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-}
-
-.fileName span {
-  margin-left: 10px;
-}

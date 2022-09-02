@@ -1,0 +1,10 @@
+.area {
+    border: 1px dashed rgb(255, 255, 255);
+  }
+  
+  .drop {
+    min-height: 50px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+  }
