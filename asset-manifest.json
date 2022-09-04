@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/accl-hw.github.io/static/css/main.fc485af9.css",
-    "main.js": "/accl-hw.github.io/static/js/main.e3537bb5.js",
+    "main.js": "/accl-hw.github.io/static/js/main.afaa7eaa.js",
     "static/media/medium.svg": "/accl-hw.github.io/static/media/medium.75e46893bba30c296cf8acf1a669394b.svg",
     "index.html": "/accl-hw.github.io/index.html",
     "static/media/lowest.svg": "/accl-hw.github.io/static/media/lowest.c699767cf57fd970f1465d8f5e4f00dd.svg",
@@ -9,10 +9,10 @@
     "static/media/low.svg": "/accl-hw.github.io/static/media/low.e3db25f0e91bbcdbf7b3d506ca23f86a.svg",
     "static/media/high.svg": "/accl-hw.github.io/static/media/high.a9ad6945872cd9b0521015c38418f194.svg",
     "main.fc485af9.css.map": "/accl-hw.github.io/static/css/main.fc485af9.css.map",
-    "main.e3537bb5.js.map": "/accl-hw.github.io/static/js/main.e3537bb5.js.map"
+    "main.afaa7eaa.js.map": "/accl-hw.github.io/static/js/main.afaa7eaa.js.map"
   },
   "entrypoints": [
     "static/css/main.fc485af9.css",
-    "static/js/main.e3537bb5.js"
+    "static/js/main.afaa7eaa.js"
   ]
 }
