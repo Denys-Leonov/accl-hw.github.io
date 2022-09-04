@@ -1,1 +1,1 @@
-accl-hw.guthub.io
+accl-hw.github.io
