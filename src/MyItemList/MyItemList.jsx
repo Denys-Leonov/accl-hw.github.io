@@ -6,7 +6,7 @@ import MyDetails from '../components/MyDetails/MyDetails';
 
 function MyItemList({ dataArr }) {
   const styleObj = {
-    accordion: { backgroundColor: 'rgba(240, 240, 13, 0.312)', m: '3px 0' },
+    accordion: { backgroundColor: 'rgba(240, 240, 13, 0.312)', m: '3px 0px' },
   };
 
   return (
