@@ -2,7 +2,7 @@ import React from 'react';
 import CSVReader from 'react-csv-reader';
 import { Button, Typography } from '@mui/material';
 import UploadFileRoundedIcon from '@mui/icons-material/UploadFileRounded';
-import './MyButtonParser.css'
+import './MyButtonParser.css';
 
 function MyButtonParser({ packLength, setDataArr, setFullArr, setFileName }) {
   const parseOptions = {
@@ -11,7 +11,7 @@ function MyButtonParser({ packLength, setDataArr, setFullArr, setFileName }) {
   };
 
   function handleCSV(data, info) {
-    console.log(data)
+    console.log(data);
     document.documentElement.scrollTop = 0;
     const firstPackage = data.splice(0, packLength);
     setFullArr(data);
