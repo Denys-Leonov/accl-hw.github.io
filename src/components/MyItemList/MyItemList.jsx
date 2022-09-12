@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Box } from '@mui/material';
 import Accordion from '@mui/material/Accordion';
-import MySummary from '../components/MySummary/MySummary';
-import MyDetails from '../components/MyDetails/MyDetails';
+import MySummary from '../MySummary/MySummary';
+import MyDetails from '../MyDetails/MyDetails';
 
 function MyItemList({ dataArr }) {
   const styleObj = {
