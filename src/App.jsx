@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <MyAppBar dataArr={dataArr} setDataArr={setDataArr} />
       <MyItemList dataArr={dataArr}/>
+  
     </div>
   );
 }
